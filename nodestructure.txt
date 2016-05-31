@@ -1,0 +1,6 @@
+node structure:
+	require - modules
+	middleware -  the function that is put in to endpoints. between recieving a request and sending a response 				 we have middleware. contains a function to look for a public folder
+	endpoints - any function that sees an API request. 
+
+	listen - Port# nodemon uses this
